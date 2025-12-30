@@ -9,7 +9,6 @@ public class ChurnController {
 
     @PostMapping("/predict")
     public String predict(@RequestBody String body){
-        System.out.println("Hola");
         return "Conexión Exitosa";
     }
 }
